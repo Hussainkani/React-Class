@@ -1,0 +1,20 @@
+/* src/index.css */
+@import "tailwindcss";
+
+
+/* Define custom theme values for Tailwind */
+@theme {
+  --color-primary: red;
+  --color-secondary: blue;
+
+  --font-family: 'Poppins', sans-serif;
+}
+
+/* Apply global styles */
+/* body {
+  font-family: var(--font-family);
+
+} */
+
+
+
