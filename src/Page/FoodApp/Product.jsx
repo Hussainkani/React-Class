@@ -24,7 +24,7 @@ const Product = () => {
 
   const handleAddCart = (list) => {
     setCart([...cart, list]);
-    navigate("/cart");
+    // navigate("/cart");
     toast.success("Product Add Successfully");
     console.log("Add to cart", list.name);
   };
